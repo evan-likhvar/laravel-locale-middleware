@@ -24,5 +24,8 @@ class SetLocaleServiceProvider extends ServiceProvider
     public function boot()
     {
         app('router')->aliasMiddleware('set.locale',SetLocaleMiddleware::class);
+        $this->publishes([
+            __DIR__.'/src/site-locales.php' => config_path('site-locales.php'),
+        ]);
     }
 }
