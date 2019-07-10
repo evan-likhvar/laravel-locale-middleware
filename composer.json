@@ -2,6 +2,7 @@
     "name": "elikh/set-locale-middleware",
     "description": "set app locale from request url or user browser settings",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Evan Likhvar",
