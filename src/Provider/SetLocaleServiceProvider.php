@@ -1,6 +1,6 @@
 <?php
 
-namespace Elikh\LocaleMiddleware;
+namespace Provider;
 
 use Illuminate\Support\ServiceProvider;
 
