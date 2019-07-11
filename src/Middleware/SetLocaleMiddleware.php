@@ -1,6 +1,6 @@
 <?php
 
-namespace Elikh\LocaleMiddleware;
+namespace Middleware;
 
 use Closure;
 use Illuminate\Contracts\Session\Session;
