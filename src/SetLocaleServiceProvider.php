@@ -1,6 +1,6 @@
 <?php
 
-namespace Provider;
+namespace Elikh;
 
 use Illuminate\Support\ServiceProvider;
 
