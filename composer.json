@@ -1,12 +1,11 @@
 {
     "name": "elikh/set-locale-middleware",
-    "description": "set app locale from request url or user browser settings",
+    "description": "set app locale from request's url or user's browser settings",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Evan Likhvar",
-            "email": "evan.likhvar@gmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -14,8 +13,8 @@
         "php": "^7.2"
     },
     "autoload": {
-        "classmap": [
-            "src/"
-        ]
+        "psr-4": {
+            "Elikh\\": "src/"
+        }
     }
 }
